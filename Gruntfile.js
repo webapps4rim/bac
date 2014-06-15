@@ -67,6 +67,7 @@ module.exports = function(grunt) {
         options: {
           flatten: true,
           assets: '<%= config.dist %>/assets',
+          bower: 'bower_components/',
           layout: '<%= config.src %>/templates/layouts/default.hbs',
           data: '<%= config.src %>/data/*.{json,yml}',
           partials: '<%= config.src %>/templates/partials/*.hbs',
