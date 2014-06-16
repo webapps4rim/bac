@@ -1,0 +1,501 @@
+[{
+    "id": "01CNEM",
+    "name": "College Nema 2",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01CVAS",
+    "name": "College Vassala",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01CADB",
+    "name": "Collège Adel Begrou",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01CANZ",
+    "name": "Collège Aoueinatt Zbil",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01LNEM",
+    "name": "Sebil Néma",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01CBOS",
+    "name": "Collége Bousta",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01CBOT",
+    "name": "Collége Boustailla",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01CMAV",
+    "name": "Collége Mavnadich",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01CTIM",
+    "name": "Collége Timbedra",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01CWAL",
+    "name": "Collége Walata",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01LDGN",
+    "name": "Lycée   Djigueni",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01LTIM",
+    "name": "Lycée    Timbedra",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01LAMJ",
+    "name": "Lycée Amourj",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "01LBSK",
+    "name": "Lycée Bassiknou",
+    "wilayaName": "Hod Charghi",
+    "wilayaId": "01"
+}, {
+    "id": "02CDWA",
+    "name": "College Dwairara",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02CEGR",
+    "name": "College Egjert",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02CTWI",
+    "name": "College Twill",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02CAI1",
+    "name": "Collége Aioun 1",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02CAI2",
+    "name": "Collége Aioun 2",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02CLSA",
+    "name": "Collége Sava",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02LAIN",
+    "name": "Sebil El Hora Aioun",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02LTNT",
+    "name": "Mouhamediya Tetane",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02LAIV",
+    "name": "Lycèe Ain Varba",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02LTAM",
+    "name": "Lycée Tamchekett",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "02LKOB",
+    "name": "Lycée de Kobéni",
+    "wilayaName": "Hod Gharbi",
+    "wilayaId": "02"
+}, {
+    "id": "03CKI4",
+    "name": "College Kiffa 4",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03CAGH",
+    "name": "College Aghouratt",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03CBOU",
+    "name": "College Boulehratt",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03CEHS",
+    "name": "College Ehseye Tine",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03CKI3",
+    "name": "College Kiffa 3",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03CGRN",
+    "name": "College Legrane",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03CKIF1",
+    "name": "Taghadoum Kiffa",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03CKI2",
+    "name": "Collège Kiffa 2",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03GHAY",
+    "name": "Collége El Ghayra",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03CBRK",
+    "name": "Collége de Barkéol",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03LGUE",
+    "name": "Lycée  Guerrou",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03LKIF",
+    "name": "Lycee Kifa 2",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03LBMD",
+    "name": "Lycée  Boumdeid",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "03LKNK",
+    "name": "Lycée Kankoussa",
+    "wilayaName": "Assaba",
+    "wilayaId": "03"
+}, {
+    "id": "04CKA1",
+    "name": "Sangama",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04CKA2",
+    "name": "College Kaedi 2",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04CVOU",
+    "name": "College Voum Leghleita",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04CNDA",
+    "name": "Collège Ndadbeni",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04CNWA",
+    "name": "Collége Néré Walo",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04RENG",
+    "name": "Collége Rindiaw",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04TOKM",
+    "name": "Collége Tokomadjie",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04CTCI",
+    "name": "Collége Toufoundé Civet",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04CWAL",
+    "name": "Collége Wally",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04CTOU",
+    "name": "Lycee   Toulel",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04LMGH",
+    "name": "Lycee  Maghama",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04LMNG",
+    "name": "Lycee Monguel",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04LMBT",
+    "name": "Lycée  M'Boutt",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04LDJE",
+    "name": "Lycée Jeol",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "04LEXB",
+    "name": "Lycée Lexeiba 1",
+    "wilayaName": "Gorgol",
+    "wilayaId": "04"
+}, {
+    "id": "05LBGH",
+    "name": "Lycée    Boghe",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CAGC",
+    "name": "College Aghchorguit",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CMBA",
+    "name": "College Ayre M bar",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CBOH",
+    "name": "College Bouhdida",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CDBR",
+    "name": "College Dar El Barka",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CMLJ",
+    "name": "El Ahali (MLJ)",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CSAN",
+    "name": "College Sangrava",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05WADM",
+    "name": "College Wad Emour",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CCHR",
+    "name": "Collège Cheguar",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CDAW",
+    "name": "Collège Djewnaba",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CMAL",
+    "name": "Collège Male",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05CNIA",
+    "name": "Collége Niabina",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05LALG",
+    "name": "Lycée    Aleg",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05LMLJ",
+    "name": "Mouta Alim Magta Lehjar",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05LBAG",
+    "name": "Lycée  Bagoudine",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05LMBG",
+    "name": "Lycée  Mbagne",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "05LBBB",
+    "name": "Lycée Bababé",
+    "wilayaName": "Brakna",
+    "wilayaId": "05"
+}, {
+    "id": "06BOUT",
+    "name": "Boutalhaya",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CAGB",
+    "name": "College Aghba",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CBAB",
+    "name": "College Babe El veth",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CKHA",
+    "name": "College El Khat",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CELB",
+    "name": "College Elb Adress",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CMBR",
+    "name": "College Magham Ibrahim",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CNDG",
+    "name": "College N'Diago",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CNBG",
+    "name": "College Nebaghiya",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CNTK",
+    "name": "College Nteikane",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06COGE",
+    "name": "College Ougey",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CRO3",
+    "name": "College Rosso 3",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CTAG",
+    "name": "College Taguilalet",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CJID",
+    "name": "Collège Jidrin Mouhguen",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CLBR",
+    "name": "Collège Loubeirid",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CTIG",
+    "name": "Collège Tiguinit",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CAJW",
+    "name": "Collége Ajweir 2",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CARB",
+    "name": "Collége Arafat Boutilimitt",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CBMB",
+    "name": "Collége Boumbry",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06AWDE",
+    "name": "Collége Ewdéche",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CKRM",
+    "name": "Collége Keur",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06LEVR",
+    "name": "Collége Levraiwa",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CLEX",
+    "name": "Collége Lexaiba 2",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CNAI",
+    "name": "Collége Naim",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06CTUM",
+    "name": "Collége Tumba Yali",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06LROS",
+    "name": "Lycée    Rosso",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06EMAIRI",
+    "name": "El Karama Rosso",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06LBTT",
+    "name": "Lycée    Boutilimitt",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06LMDR",
+    "name": "Lycée    Mederdra",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}, {
+    "id": "06LRKZ",
+    "name": "Lycée    Rkiz",
+    "wilayaName": "Trarza",
+    "wilayaId": "06"
+}]

@@ -1,0 +1,54 @@
+{
+    "2009": {
+        "total": 35421,
+        "missed": 2064,
+        "passed": 3279,
+        "session": 3380,
+        "eliminated": 10227,
+        "failed": 18535,
+        "offices": 95
+    },
+    "2010": {
+        "total": 28540,
+        "passed": 3536,
+        "session": 3557,
+        "failed": 14690,
+        "eliminated": 4636,
+        "missed": 2125
+    },
+    "2011": {
+        "total": 30058,
+        "offices": 79,
+        "nkcOffices": 52,
+        "female": "41.98%",
+        "male": "-",
+        "public": "14.54%",
+        "private": "28.08%",
+        "free": "57.37%"
+    },
+    "2012": {
+        "total": 31280,
+        "passed": 2848,
+        "session": 3118
+    },
+    "2013": {
+        "total": 35492,
+        "female": "43,95%",
+        "passed": 3152,
+        "session": 3455,
+        "passedSession": 2533,
+        "list": [],
+        "public": "29.88",
+        "private": "38.98",
+        "free": "-",
+        "link": "http://fr.alakhbar.info/6989-0-Mauritanie-35492-candidats-se-penchent-sur-les-epreuves-du-Bac.html",
+        "note": "http://www.afrik.com/mauritanie-35-492-candidats-passent-le-bac; 35,492 candidates including 43.95% of girls (and 76 candidates for technical Bac) address from Monday, June 17, on the Baccalaureate in 2013 in Mauritania, according Alakhbar.info . Exams are held in 95 centers, including 54 centers in Nouakchott and 41 in the provinces (regions) of the interior, according to the exam department at the Ministry of Education. 29.88% of the candidates came from the public, private 38.98% and 31.15% other candidates are free, with an increase in the number of candidates up to 4150 candidates compared to last year."
+    },
+    "2014": {
+        "total": 41621,
+        "offices": 106,
+        "male": 9984,
+        "female": 7567,
+        "list": []
+    }
+}

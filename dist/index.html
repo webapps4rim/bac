@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home | BAC 2014</title>
+    <title>الرئيسية | BAC Stats</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="bower_components//bootstrap-arabic/dist/css/bootstrap.min.css">
@@ -34,22 +34,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">BAC 2014</a>
+      <a class="navbar-brand" href="index.html">BAC Stats</a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <!-- you can exclude pages using {{#isnt}} helper: {{#isnt data.title 'Blog'}} -->
         
-        <li>
-          <a href="blog.html">Blog</a>
-        </li>
-        
         <li class="active">
-          <a href="index.html">Home</a>
+          <a href="index.html">الرئيسية</a>
         </li>
         
       </ul>
-      <ul class="nav navbar-nav navbar-right">
+      <!-- <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Github <b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -62,23 +58,44 @@
             
           </ul>
         </li>
-      </ul>
+      </ul> -->
     </div><!--/.nav-collapse -->
   </div>
 </div>
 
 
-    <div class="container theme-showcase" role="main">
+    <!-- <div class="container theme-showcase" role="main"> -->
 
       
 <div class="jumbotron">
-  <h1>BAC 2014 Results!</h1>
-  <p>This is a Assemble Generator template using <a href="http://getbootstrap.com">Bootstrap</a>. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-  <p><a href="blog.html" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+  <div class="container">
+    <h1>إحصائيات الباكلوريا</h1>
+    <!-- <p>يقدم هذا الموقع نتائج وإحصائيات عن مسابقة الباكلوريا لعام 2014</p> -->
+  </div>
+</div>
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <h2>المترشحين </h2>
+      <p>ترشحت هذه السنة 41621 طالب، مقارنة ب### لعام ٢٠١٣. الطالب الأصغر حسب العمر لديه ١٦ سنه، والأكبر لديه ٣٠ سنه.</p>
+      <p><a class="btn btn-default" href="#" role="button">تفاصيل عن المترشحين »</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>الشعب </h2>
+      <p>يبلغ عدد أشعب لهذا العام ٧، وهي: ###، ### ###، ### ###، ### ###، ### ###، ### </p>
+      <p><a class="btn btn-default" href="#" role="button">المزيد عن الشعب والمواد »</a></p>
+   </div>
+    <div class="col-md-4">
+      <h2>الولايات والمراكز</h2>
+      <p>يتوزع المشاركون على 100 مركز ضمن 13 ولاية.</p>
+      <p><a class="btn btn-default" href="#" role="button">المزيد عن الولايات والمراكز »</a></p>
+    </div>
+  </div>
 </div>
 
 
-    </div>
+    <!-- </div> -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
