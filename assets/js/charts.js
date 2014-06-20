@@ -58,13 +58,13 @@ var legend = function () {//require('./legend');
 
         var text = legend.append('text').text(serie.title);
 
-        legend.append('rect').attr('width', legendWidth).attr('height', legendHeight).attr('x', text.node().getBBox().width + 15);
+        legend.append('rect').attr('width', legendWidth).attr('height', legendHeight).attr('x', text.node().getBBox().width + 3);
 
         x -= legend.node().getBBox().width;
 
         legend.attr('transform', 'translate(' + x + ',0)');
 
-        x -= 10;
+        x -= 15;
     }, this);
 
     legends.attr('transform', 'translate('+ (this.width) + ', -20)');
