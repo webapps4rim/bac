@@ -31,7 +31,9 @@
     "assemble-contrib-permalinks": "*",
     "assemble-contrib-sitemap": "*",
     "bower": "~1.3.5",
-    "grunt-gh-pages": "~0.9.1"
+    "grunt-gh-pages": "~0.9.1",
+    "browserify": "~4.1.11",
+    "grunt-browserify": "~2.1.0"
   },
   "licenses": [
     {

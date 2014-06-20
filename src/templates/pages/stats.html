@@ -1,0 +1,32 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1>{{ heading }}</h1>
+    <!-- <p>يقدم هذا الموقع نتائج وإحصائيات عن مسابقة الباكلوريا لعام 2014</p> -->
+  </div>
+</div>
+.row  
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="chart"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <h2>المترشحين </h2>
+      <p>ترشحت هذه السنة {{students.2014.total}} طالب، مقارنة ب### لعام ٢٠١٣. الطالب الأصغر حسب العمر لديه ١٦ سنه، والأكبر لديه ٣٠ سنه.</p>
+      <p><a class="btn btn-default" href="#" role="button">تفاصيل عن المترشحين »</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>الشعب </h2>
+      <p>يبلغ عدد أشعب لهذا العام ٧، وهي: ###، ### #e##، ### ###، ### ###، ### ###، ### </p>
+      <p><a class="btn btn-default" href="#" role="button">المزيد عن الشعب والمواد »</a></p>
+   </div>
+    <div class="col-md-4">
+      <h2>الولايات والمراكز</h2>
+      <p>يتوزع المشاركون على {{length offices}} مركز ضمن {{length wilayas}} ولاية.</p>
+      <p><a class="btn btn-default" href="#" role="button">المزيد عن الولايات والمراكز »</a></p>
+    </div>
+  </div>
+</div>

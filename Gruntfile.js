@@ -29,8 +29,8 @@ module.exports = function(grunt) {
 
     watch: {
       assemble: {
-        files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml}'],
-        tasks: ['assemble']
+        files: ['<%= config.src %>/{content,data,templates,js}/{,*/}*.{md,hbs,yml,js}'],
+        tasks: ['browserify', 'assemble']
       },
       livereload: {
         options: {
@@ -88,6 +88,16 @@ module.exports = function(grunt) {
         base: 'dist'
       },
       src: ['**']
+    },
+
+    browserify: {
+      dist: {
+        files: {
+          'dist/assets/js/charts.js': ['src/js/main.js'],
+        },
+        options: {
+        }
+      }
     }
 
   });
@@ -98,6 +108,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.loadNpmTasks('grunt-gh-pages');
+  grunt.loadNpmTasks('grunt-browserify');
 
   grunt.registerTask('server', [
     'clean',
