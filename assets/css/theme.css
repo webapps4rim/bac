@@ -1,93 +1,64 @@
 body {
   padding-top: 50px;
-  /*padding-bottom: 30px;*/
-}
-
-.theme-dropdown .dropdown-menu {
-  display: block;
-  position: static;
-  margin-bottom: 20px;
-}
-
-.theme-showcase > p > .btn {
-  margin: 5px 0;
-}
-
-.chart {
-    /*background: #999;*/
-}
-
+  /*padding-bottom: 30px;*/ }
 
 /* charts */
-
 svg text {
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
-.legends rect {
-  fill: red;
-}
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
 
 .legends text {
   dominant-baseline: hanging;
   text-anchor: end;
-  stroke: none;
-}
-
-.bar {
-  fill: steelblue;
-}
-
-.axis {
-  font: 10px sans-serif;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.x.axis path {
-  /*display: none;*/
-}
-
+  stroke: none; }
+.legends rect {
+  stroke: none; }
+.legends g:nth-child(1) rect {
+  fill: #1f77b4; }
+.legends g:nth-child(2) rect {
+  fill: #ff7f0e; }
+.legends g:nth-child(3) rect {
+  fill: #2ca02c; }
+.legends g:nth-child(4) rect {
+  fill: #d62728; }
+.legends g:nth-child(5) rect {
+  fill: #9467bd; }
+.legends g:nth-child(6) rect {
+  fill: #8c564b; }
+.legends g:nth-child(7) rect {
+  fill: #e377c2; }
+.legends g:nth-child(8) rect {
+  fill: #7f7f7f; }
+.legends g:nth-child(9) rect {
+  fill: #bcbd22; }
+.legends g:nth-child(10) rect {
+  fill: #17becf; }
 
 .line {
-      fill: none;
-      stroke-width: 1.5px;
-}
-.total {
-    stroke: steelblue;
-}
+  fill: none;
+  stroke-width: 1.5px; }
 
-.total rect {
-    fill: steelblue;
-    stroke: none;
-}
-
-.passed {
-    stroke: green;
-}
-.passed rect {
-    fill: green;
-    stroke: none;
-}
-
-.session {
-    stroke: aqua;
-}
-.session rect {
-    fill: aqua;
-    stroke: none;
-}
-
-.failed {
-    stroke: red;
-}
-.failed rect {
-    fill: red;
-    stroke: none;
-}
-
+.canvas .lineChart .line:nth-child(1) {
+  stroke: #1f77b4; }
+.canvas .lineChart .line:nth-child(2) {
+  stroke: #ff7f0e; }
+.canvas .lineChart .line:nth-child(3) {
+  stroke: #2ca02c; }
+.canvas .lineChart .line:nth-child(4) {
+  stroke: #d62728; }
+.canvas .lineChart .line:nth-child(5) {
+  stroke: #9467bd; }
+.canvas .lineChart .line:nth-child(6) {
+  stroke: #8c564b; }
+.canvas .lineChart .line:nth-child(7) {
+  stroke: #e377c2; }
+.canvas .lineChart .line:nth-child(8) {
+  stroke: #7f7f7f; }
+.canvas .lineChart .line:nth-child(9) {
+  stroke: #bcbd22; }
+.canvas .lineChart .line:nth-child(10) {
+  stroke: #17becf; }

@@ -31,10 +31,12 @@ var chartTypes = {
                 return xScale(xValues[i]);
             });
 
+        var lineChart = this.canvas.append('g').attr('class', 'lineChart');
+
         _.each(this.series, function (s, key) {
             if (key === 'x') { return; }
 
-            this.canvas.append("path")
+            lineChart.append("path")
                 .datum(s.data)
                 .attr("class", "line " + key)
                 .attr("d", line.y(function(d) {
