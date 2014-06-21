@@ -38,8 +38,12 @@ var chartTypes = {
             circleGroup.selectAll('circle').data(item.data).enter().append('circle')
             .attr('cx', this.getXScaledValue)
             .attr('cy', this.getYScaledValue)
-            .attr('r', 5);
+            .attr('r', 5)
+            .attr('data-toggle', 'tooltip')
+            .attr('data-title', function (d) {return item.title + ': ' + d;});
         }, this);
+
+        $(circleChart.node()).tooltip({selector: 'circle', container: 'body'});
     }
 };
 
