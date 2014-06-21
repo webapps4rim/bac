@@ -395,24 +395,3 @@ svg text {
 .chartType.dotChart path {
   fill: none;
   stroke-width: 1.5px; }
-
-.canvas .lineChart .line:nth-child(1) {
-  stroke: #1f77b4; }
-.canvas .lineChart .line:nth-child(2) {
-  stroke: #ff7f0e; }
-.canvas .lineChart .line:nth-child(3) {
-  stroke: #2ca02c; }
-.canvas .lineChart .line:nth-child(4) {
-  stroke: #d62728; }
-.canvas .lineChart .line:nth-child(5) {
-  stroke: #9467bd; }
-.canvas .lineChart .line:nth-child(6) {
-  stroke: #8c564b; }
-.canvas .lineChart .line:nth-child(7) {
-  stroke: #e377c2; }
-.canvas .lineChart .line:nth-child(8) {
-  stroke: #7f7f7f; }
-.canvas .lineChart .line:nth-child(9) {
-  stroke: #bcbd22; }
-.canvas .lineChart .line:nth-child(10) {
-  stroke: #17becf; }
