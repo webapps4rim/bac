@@ -1,7 +1,3 @@
-body {
-  padding-top: 50px;
-  /*padding-bottom: 30px;*/ }
-
 /* charts */
 svg text {
   font-size: 1.2em; }
@@ -38,7 +34,365 @@ svg text {
 .legends g:nth-child(10) rect {
   fill: #17becf; }
 
-.line {
+.chartType.category10 .chartItem:nth-child(1) {
+  stroke: #1f77b4; }
+  .chartType.category10 .chartItem:nth-child(1) circle {
+    stroke: none;
+    fill: #1f77b4; }
+.chartType.category10 .chartItem:nth-child(2) {
+  stroke: #ff7f0e; }
+  .chartType.category10 .chartItem:nth-child(2) circle {
+    stroke: none;
+    fill: #ff7f0e; }
+.chartType.category10 .chartItem:nth-child(3) {
+  stroke: #2ca02c; }
+  .chartType.category10 .chartItem:nth-child(3) circle {
+    stroke: none;
+    fill: #2ca02c; }
+.chartType.category10 .chartItem:nth-child(4) {
+  stroke: #d62728; }
+  .chartType.category10 .chartItem:nth-child(4) circle {
+    stroke: none;
+    fill: #d62728; }
+.chartType.category10 .chartItem:nth-child(5) {
+  stroke: #9467bd; }
+  .chartType.category10 .chartItem:nth-child(5) circle {
+    stroke: none;
+    fill: #9467bd; }
+.chartType.category10 .chartItem:nth-child(6) {
+  stroke: #8c564b; }
+  .chartType.category10 .chartItem:nth-child(6) circle {
+    stroke: none;
+    fill: #8c564b; }
+.chartType.category10 .chartItem:nth-child(7) {
+  stroke: #e377c2; }
+  .chartType.category10 .chartItem:nth-child(7) circle {
+    stroke: none;
+    fill: #e377c2; }
+.chartType.category10 .chartItem:nth-child(8) {
+  stroke: #7f7f7f; }
+  .chartType.category10 .chartItem:nth-child(8) circle {
+    stroke: none;
+    fill: #7f7f7f; }
+.chartType.category10 .chartItem:nth-child(9) {
+  stroke: #bcbd22; }
+  .chartType.category10 .chartItem:nth-child(9) circle {
+    stroke: none;
+    fill: #bcbd22; }
+.chartType.category10 .chartItem:nth-child(10) {
+  stroke: #17becf; }
+  .chartType.category10 .chartItem:nth-child(10) circle {
+    stroke: none;
+    fill: #17becf; }
+
+.chartType.category20 .chartItem:nth-child(1) {
+  stroke: #1f77b4; }
+  .chartType.category20 .chartItem:nth-child(1) circle {
+    stroke: none;
+    fill: #1f77b4; }
+.chartType.category20 .chartItem:nth-child(2) {
+  stroke: #aec7e8; }
+  .chartType.category20 .chartItem:nth-child(2) circle {
+    stroke: none;
+    fill: #aec7e8; }
+.chartType.category20 .chartItem:nth-child(3) {
+  stroke: #ff7f0e; }
+  .chartType.category20 .chartItem:nth-child(3) circle {
+    stroke: none;
+    fill: #ff7f0e; }
+.chartType.category20 .chartItem:nth-child(4) {
+  stroke: #ffbb78; }
+  .chartType.category20 .chartItem:nth-child(4) circle {
+    stroke: none;
+    fill: #ffbb78; }
+.chartType.category20 .chartItem:nth-child(5) {
+  stroke: #2ca02c; }
+  .chartType.category20 .chartItem:nth-child(5) circle {
+    stroke: none;
+    fill: #2ca02c; }
+.chartType.category20 .chartItem:nth-child(6) {
+  stroke: #98df8a; }
+  .chartType.category20 .chartItem:nth-child(6) circle {
+    stroke: none;
+    fill: #98df8a; }
+.chartType.category20 .chartItem:nth-child(7) {
+  stroke: #d62728; }
+  .chartType.category20 .chartItem:nth-child(7) circle {
+    stroke: none;
+    fill: #d62728; }
+.chartType.category20 .chartItem:nth-child(8) {
+  stroke: #ff9896; }
+  .chartType.category20 .chartItem:nth-child(8) circle {
+    stroke: none;
+    fill: #ff9896; }
+.chartType.category20 .chartItem:nth-child(9) {
+  stroke: #9467bd; }
+  .chartType.category20 .chartItem:nth-child(9) circle {
+    stroke: none;
+    fill: #9467bd; }
+.chartType.category20 .chartItem:nth-child(10) {
+  stroke: #c5b0d5; }
+  .chartType.category20 .chartItem:nth-child(10) circle {
+    stroke: none;
+    fill: #c5b0d5; }
+.chartType.category20 .chartItem:nth-child(11) {
+  stroke: #8c564b; }
+  .chartType.category20 .chartItem:nth-child(11) circle {
+    stroke: none;
+    fill: #8c564b; }
+.chartType.category20 .chartItem:nth-child(12) {
+  stroke: #c49c94; }
+  .chartType.category20 .chartItem:nth-child(12) circle {
+    stroke: none;
+    fill: #c49c94; }
+.chartType.category20 .chartItem:nth-child(13) {
+  stroke: #e377c2; }
+  .chartType.category20 .chartItem:nth-child(13) circle {
+    stroke: none;
+    fill: #e377c2; }
+.chartType.category20 .chartItem:nth-child(14) {
+  stroke: #f7b6d2; }
+  .chartType.category20 .chartItem:nth-child(14) circle {
+    stroke: none;
+    fill: #f7b6d2; }
+.chartType.category20 .chartItem:nth-child(15) {
+  stroke: #7f7f7f; }
+  .chartType.category20 .chartItem:nth-child(15) circle {
+    stroke: none;
+    fill: #7f7f7f; }
+.chartType.category20 .chartItem:nth-child(16) {
+  stroke: #c7c7c7; }
+  .chartType.category20 .chartItem:nth-child(16) circle {
+    stroke: none;
+    fill: #c7c7c7; }
+.chartType.category20 .chartItem:nth-child(17) {
+  stroke: #bcbd22; }
+  .chartType.category20 .chartItem:nth-child(17) circle {
+    stroke: none;
+    fill: #bcbd22; }
+.chartType.category20 .chartItem:nth-child(18) {
+  stroke: #dbdb8d; }
+  .chartType.category20 .chartItem:nth-child(18) circle {
+    stroke: none;
+    fill: #dbdb8d; }
+.chartType.category20 .chartItem:nth-child(19) {
+  stroke: #17becf; }
+  .chartType.category20 .chartItem:nth-child(19) circle {
+    stroke: none;
+    fill: #17becf; }
+.chartType.category20 .chartItem:nth-child(20) {
+  stroke: #9edae5; }
+  .chartType.category20 .chartItem:nth-child(20) circle {
+    stroke: none;
+    fill: #9edae5; }
+
+.chartType.category20b .chartItem:nth-child(1) {
+  stroke: #393b79; }
+  .chartType.category20b .chartItem:nth-child(1) circle {
+    stroke: none;
+    fill: #393b79; }
+.chartType.category20b .chartItem:nth-child(2) {
+  stroke: #5254a3; }
+  .chartType.category20b .chartItem:nth-child(2) circle {
+    stroke: none;
+    fill: #5254a3; }
+.chartType.category20b .chartItem:nth-child(3) {
+  stroke: #6b6ecf; }
+  .chartType.category20b .chartItem:nth-child(3) circle {
+    stroke: none;
+    fill: #6b6ecf; }
+.chartType.category20b .chartItem:nth-child(4) {
+  stroke: #9c9ede; }
+  .chartType.category20b .chartItem:nth-child(4) circle {
+    stroke: none;
+    fill: #9c9ede; }
+.chartType.category20b .chartItem:nth-child(5) {
+  stroke: #637939; }
+  .chartType.category20b .chartItem:nth-child(5) circle {
+    stroke: none;
+    fill: #637939; }
+.chartType.category20b .chartItem:nth-child(6) {
+  stroke: #8ca252; }
+  .chartType.category20b .chartItem:nth-child(6) circle {
+    stroke: none;
+    fill: #8ca252; }
+.chartType.category20b .chartItem:nth-child(7) {
+  stroke: #b5cf6b; }
+  .chartType.category20b .chartItem:nth-child(7) circle {
+    stroke: none;
+    fill: #b5cf6b; }
+.chartType.category20b .chartItem:nth-child(8) {
+  stroke: #cedb9c; }
+  .chartType.category20b .chartItem:nth-child(8) circle {
+    stroke: none;
+    fill: #cedb9c; }
+.chartType.category20b .chartItem:nth-child(9) {
+  stroke: #8c6d31; }
+  .chartType.category20b .chartItem:nth-child(9) circle {
+    stroke: none;
+    fill: #8c6d31; }
+.chartType.category20b .chartItem:nth-child(10) {
+  stroke: #bd9e39; }
+  .chartType.category20b .chartItem:nth-child(10) circle {
+    stroke: none;
+    fill: #bd9e39; }
+.chartType.category20b .chartItem:nth-child(11) {
+  stroke: #e7ba52; }
+  .chartType.category20b .chartItem:nth-child(11) circle {
+    stroke: none;
+    fill: #e7ba52; }
+.chartType.category20b .chartItem:nth-child(12) {
+  stroke: #e7cb94; }
+  .chartType.category20b .chartItem:nth-child(12) circle {
+    stroke: none;
+    fill: #e7cb94; }
+.chartType.category20b .chartItem:nth-child(13) {
+  stroke: #843c39; }
+  .chartType.category20b .chartItem:nth-child(13) circle {
+    stroke: none;
+    fill: #843c39; }
+.chartType.category20b .chartItem:nth-child(14) {
+  stroke: #ad494a; }
+  .chartType.category20b .chartItem:nth-child(14) circle {
+    stroke: none;
+    fill: #ad494a; }
+.chartType.category20b .chartItem:nth-child(15) {
+  stroke: #d6616b; }
+  .chartType.category20b .chartItem:nth-child(15) circle {
+    stroke: none;
+    fill: #d6616b; }
+.chartType.category20b .chartItem:nth-child(16) {
+  stroke: #e7969c; }
+  .chartType.category20b .chartItem:nth-child(16) circle {
+    stroke: none;
+    fill: #e7969c; }
+.chartType.category20b .chartItem:nth-child(17) {
+  stroke: #7b4173; }
+  .chartType.category20b .chartItem:nth-child(17) circle {
+    stroke: none;
+    fill: #7b4173; }
+.chartType.category20b .chartItem:nth-child(18) {
+  stroke: #a55194; }
+  .chartType.category20b .chartItem:nth-child(18) circle {
+    stroke: none;
+    fill: #a55194; }
+.chartType.category20b .chartItem:nth-child(19) {
+  stroke: #ce6dbd; }
+  .chartType.category20b .chartItem:nth-child(19) circle {
+    stroke: none;
+    fill: #ce6dbd; }
+.chartType.category20b .chartItem:nth-child(20) {
+  stroke: #de9ed6; }
+  .chartType.category20b .chartItem:nth-child(20) circle {
+    stroke: none;
+    fill: #de9ed6; }
+
+.chartType.category20c .chartItem:nth-child(1) {
+  stroke: #3182bd; }
+  .chartType.category20c .chartItem:nth-child(1) circle {
+    stroke: none;
+    fill: #3182bd; }
+.chartType.category20c .chartItem:nth-child(2) {
+  stroke: #6baed6; }
+  .chartType.category20c .chartItem:nth-child(2) circle {
+    stroke: none;
+    fill: #6baed6; }
+.chartType.category20c .chartItem:nth-child(3) {
+  stroke: #9ecae1; }
+  .chartType.category20c .chartItem:nth-child(3) circle {
+    stroke: none;
+    fill: #9ecae1; }
+.chartType.category20c .chartItem:nth-child(4) {
+  stroke: #c6dbef; }
+  .chartType.category20c .chartItem:nth-child(4) circle {
+    stroke: none;
+    fill: #c6dbef; }
+.chartType.category20c .chartItem:nth-child(5) {
+  stroke: #e6550d; }
+  .chartType.category20c .chartItem:nth-child(5) circle {
+    stroke: none;
+    fill: #e6550d; }
+.chartType.category20c .chartItem:nth-child(6) {
+  stroke: #fd8d3c; }
+  .chartType.category20c .chartItem:nth-child(6) circle {
+    stroke: none;
+    fill: #fd8d3c; }
+.chartType.category20c .chartItem:nth-child(7) {
+  stroke: #fdae6b; }
+  .chartType.category20c .chartItem:nth-child(7) circle {
+    stroke: none;
+    fill: #fdae6b; }
+.chartType.category20c .chartItem:nth-child(8) {
+  stroke: #fdd0a2; }
+  .chartType.category20c .chartItem:nth-child(8) circle {
+    stroke: none;
+    fill: #fdd0a2; }
+.chartType.category20c .chartItem:nth-child(9) {
+  stroke: #31a354; }
+  .chartType.category20c .chartItem:nth-child(9) circle {
+    stroke: none;
+    fill: #31a354; }
+.chartType.category20c .chartItem:nth-child(10) {
+  stroke: #74c476; }
+  .chartType.category20c .chartItem:nth-child(10) circle {
+    stroke: none;
+    fill: #74c476; }
+.chartType.category20c .chartItem:nth-child(11) {
+  stroke: #a1d99b; }
+  .chartType.category20c .chartItem:nth-child(11) circle {
+    stroke: none;
+    fill: #a1d99b; }
+.chartType.category20c .chartItem:nth-child(12) {
+  stroke: #c7e9c0; }
+  .chartType.category20c .chartItem:nth-child(12) circle {
+    stroke: none;
+    fill: #c7e9c0; }
+.chartType.category20c .chartItem:nth-child(13) {
+  stroke: #756bb1; }
+  .chartType.category20c .chartItem:nth-child(13) circle {
+    stroke: none;
+    fill: #756bb1; }
+.chartType.category20c .chartItem:nth-child(14) {
+  stroke: #9e9ac8; }
+  .chartType.category20c .chartItem:nth-child(14) circle {
+    stroke: none;
+    fill: #9e9ac8; }
+.chartType.category20c .chartItem:nth-child(15) {
+  stroke: #bcbddc; }
+  .chartType.category20c .chartItem:nth-child(15) circle {
+    stroke: none;
+    fill: #bcbddc; }
+.chartType.category20c .chartItem:nth-child(16) {
+  stroke: #dadaeb; }
+  .chartType.category20c .chartItem:nth-child(16) circle {
+    stroke: none;
+    fill: #dadaeb; }
+.chartType.category20c .chartItem:nth-child(17) {
+  stroke: #636363; }
+  .chartType.category20c .chartItem:nth-child(17) circle {
+    stroke: none;
+    fill: #636363; }
+.chartType.category20c .chartItem:nth-child(18) {
+  stroke: #969696; }
+  .chartType.category20c .chartItem:nth-child(18) circle {
+    stroke: none;
+    fill: #969696; }
+.chartType.category20c .chartItem:nth-child(19) {
+  stroke: #bdbdbd; }
+  .chartType.category20c .chartItem:nth-child(19) circle {
+    stroke: none;
+    fill: #bdbdbd; }
+.chartType.category20c .chartItem:nth-child(20) {
+  stroke: #d9d9d9; }
+  .chartType.category20c .chartItem:nth-child(20) circle {
+    stroke: none;
+    fill: #d9d9d9; }
+
+.chartType.lineChart path {
+  fill: none;
+  stroke-width: 1.5px; }
+
+.chartType.dotChart path {
   fill: none;
   stroke-width: 1.5px; }
 

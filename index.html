@@ -31,36 +31,6 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
 
     
-<!-- Fixed navbar -->
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      
-      <a class="navbar-brand" href="index.html">BAC Stats</a>
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <!-- you can exclude pages using {{#isnt}} helper: {{#isnt data.title 'Blog'}} -->
-        
-      </ul>
-      <!-- <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Github <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://github.com/assemble/assemble">Assemble</a></li>
-            <li><a href="https://github.com/assemble/generator-assemble">Generator Assemble</a></li>
-            <li class="divider"></li>
-            <li class="dropdown-header">Plugins</li>
-            <li><a href="https://github.com/assemble/assemble-contrib-permalinks">assemble-contrib-permalinks</a></li>
-            <li><a href="https://github.com/assemble/assemble-contrib-sitemap">assemble-contrib-sitemap</a></li>
-            
-          </ul>
-        </li>
-      </ul> -->
-    </div><!--/.nav-collapse -->
-  </div>
-</div>
-
 
     <!-- <div class="container theme-showcase" role="main"> -->
 
@@ -79,7 +49,64 @@
     </div>
   </div>
 </div>
-<script src="assets/js/student_data.js"></script>
+
+
+<script>
+  var students = {
+  "x": {
+    "title": "Years",
+    "data": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ]
+  },
+  "total": {
+    "title": "عدد المشاركين",
+    "data": [
+      35421,
+      28540,
+      30058,
+      31280,
+      35492,
+      41621
+    ]
+  },
+  "passed": {
+    "title": "عدد الناجحين",
+    "data": [
+      3279,
+      3536,
+      3021,
+      2848,
+      3152
+    ]
+  },
+  "session": {
+    "title": "عدد المتأهلين للدورة",
+    "data": [
+      3380,
+      3557,
+      3193,
+      3118,
+      3455
+    ]
+  },
+  "failed": {
+    "title": "عدد الراسبين",
+    "data": [
+      28762,
+      21447,
+      23844,
+      25314,
+      28885
+    ]
+  }
+}
+</script>
 
     <!-- </div> -->
 

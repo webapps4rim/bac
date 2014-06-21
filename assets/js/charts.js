@@ -13,36 +13,32 @@ var drawAxis = function (canvas, scale, position, className) {
 var chartTypes = {
     bar: function() {},
     line: function() {
-        // x scale
-        var xValues = this.series.x.data;
-        var xScale = d3.scale.ordinal()
-            .rangePoints([0, this.width], 1)
-            .domain(xValues);
-
-        drawAxis(this.canvas, xScale, 'bottom', 'x')
-            .attr("transform", "translate(0," + this.height + ")");
-
-        var yScale = this.getYScale();
-
-        drawAxis(this.canvas, yScale, 'left', 'y').selectAll('text').style('text-anchor', 'start');
-
         var line = d3.svg.line()
-            .x(function(d, i) {
-                return xScale(xValues[i]);
-            });
+            .x(this.getXScaledValue);
 
-        var lineChart = this.canvas.append('g').attr('class', 'lineChart');
+        var lineChart = this.canvas.append('g').attr('class', 'chartType lineChart category10');
 
         _.each(this.series, function (s, key) {
             if (key === 'x') { return; }
 
             lineChart.append("path")
                 .datum(s.data)
-                .attr("class", "line " + key)
-                .attr("d", line.y(function(d) {
-                    return yScale(d);
-                }));
+                .attr("class", "chartItem ")
+                .attr("d", line.y(this.getYScaledValue));
 
+        }, this);
+    },
+    dot: function () {
+        var circleChart = this.canvas.append('g').attr('class', 'chartType dotChart category10');
+        
+        _.each(this.series, function (item, key) {
+            if (key === 'x') { return; }
+            var circleGroup = circleChart.append('g').attr('class', 'chartItem');
+
+            circleGroup.selectAll('circle').data(item.data).enter().append('circle')
+            .attr('cx', this.getXScaledValue)
+            .attr('cy', this.getYScaledValue)
+            .attr('r', 5);
         }, this);
     }
 };
@@ -78,6 +74,8 @@ function Chart(el) {
     this.series = window[this.$el.data('series')];
 
     this.$el.on('resized', this.resize.bind(this));
+
+    _.bindAll(this, 'getXScaledValue', 'getYScaledValue');
 }
 
 Chart.prototype = {
@@ -90,11 +88,31 @@ Chart.prototype = {
     getMin: function () {
         return _.min(this.getAllYData());
     },
-    getXScale: function () {
-        return d3.scale.domain(this.series.xData);
+    createXScale: function () {
+        this.xScale = d3.scale.ordinal()
+            .rangePoints([0, this.width], 1)
+            .domain(this.series.x.data);
+
+        drawAxis(this.canvas, this.xScale, 'bottom', 'x')
+            .attr("transform", "translate(0," + this.height + ")");
+    },
+    getXScaledValue: function (value, index) {
+        if (this.series.x.data[index]) {
+            return this.xScale(this.series.x.data[index]);
+        } else {
+            return null;
+        }
     },
     getYScale: function () {
         return d3.scale.linear().domain([0, this.getMax()]).range([this.height, 0]);
+    },
+    createYScale: function () {
+        this.yScale = this.getYScale();
+
+        drawAxis(this.canvas, this.yScale, 'left', 'y').selectAll('text').style('text-anchor', 'start');
+    },
+    getYScaledValue: function (value, index) {
+        return this.yScale(value);
     },
     render: function() {
         var drawFn = chartTypes[this.$el.data('chart')];
@@ -122,8 +140,13 @@ Chart.prototype = {
             .append("g").attr("class", "canvas")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+        this.createXScale();
+        this.createYScale();
+
         // calling plugin
         drawFn.call(this);
+
+        chartTypes.dot.call(this);
 
 
         // if (this.$el.data('legend')) {
